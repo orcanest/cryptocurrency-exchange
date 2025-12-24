@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./Pagination.module.css";
 
 function Pagination({ page, setPage }) {
   const previousHandler = () => {
@@ -9,6 +10,7 @@ function Pagination({ page, setPage }) {
     if (page >= 10) return;
     setPage((page) => page + 1);
   };
+
   return (
     <div>
       <button onClick={previousHandler}>previous</button>
