@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function TableCoin({coins}) {
-    console.log(coins)
+function TableCoin({ coins }) {
+  console.log(coins);
   return (
     <>
       <p>table coin</p>
     </>
-  )
+  );
 }
 
-export default TableCoin
+export default TableCoin;
