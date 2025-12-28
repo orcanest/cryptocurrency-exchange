@@ -57,7 +57,7 @@ function Search({ currency, setCurrency }) {
                 </li>))}
             </ul>
         </div>
-        )};
+        )}
     </div>
   );
 }
